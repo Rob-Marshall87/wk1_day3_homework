@@ -19,6 +19,7 @@ p number_of_stops
 # 8. How many ways can we return `"Falkirk High"` from the array?
 answer_8 = stops.values_at(2)
 p answer_8
+p stops[2]
 # 9. Reverse the positions of the stops in the array
 edinburgh_to_glasgow = stops.reverse
 p edinburgh_to_glasgow
